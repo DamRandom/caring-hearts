@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const Header = () => {
   return (
-    <header className="bg-[#13200A] py-6 shadow-lg">
+    <header className="bg-[#4A5443] py-6 shadow-lg">
       <div className="flex justify-between items-center px-10">
         <h1 className="text-[#FFFDF8] text-3xl font-bold">Caring Hearts</h1>
         <nav>
