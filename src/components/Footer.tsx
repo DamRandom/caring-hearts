@@ -10,7 +10,7 @@ const Footer = () => {
           <h1 className="text-3xl font-bold mb-2">Caring Hearts</h1>
           <div className="flex items-center text-sm text-[#D8E2C6] mb-1">
             <FaMapMarkerAlt size={18} className="mr-2" />
-            <p>1234 Health St, Miami, FL</p>
+            <p>7914 Flowerfild dr 33615, Miami, FL</p>
           </div>
           <div className="flex items-center text-sm text-[#D8E2C6]">
             <FaPhoneAlt size={18} className="mr-2" />

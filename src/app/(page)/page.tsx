@@ -5,6 +5,7 @@ import AboutUs from "@/components/AboutUs";
 import Services from "@/components/Services";
 import OurPhilosophy from "@/components/OurPhilosophy";
 import Location from "@/components/Location";
+import FinalCalltoAction from "@/components/FinalCalltoAction";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
         <Services />
         <OurPhilosophy />
         <Location />
+        <FinalCalltoAction />
         {/* Otras secciones aquí */}
       <Footer />
     </div>

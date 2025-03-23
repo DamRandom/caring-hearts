@@ -7,7 +7,7 @@ export default function Location() {
   const [showInfo, setShowInfo] = useState(false);
 
   return (
-    <section className="relative py-16 px-6 sm:px-12 lg:px-20 bg-[#FFFDF8]">
+    <section className="relative py-16 px-6 sm:px-12 lg:px-20  ">
       <div className="max-w-6xl mx-auto flex flex-col sm:flex-row items-center">
         {/* Left: Map Section */}
         <div className="relative w-full sm:w-1/2 h-96 flex justify-center items-center">
@@ -49,7 +49,7 @@ export default function Location() {
                 height={100}
                 className="rounded-md"
               />
-              <p className="text-sm text-[#363D31] mt-2">1234 Serenity Lane, City</p>
+              <p className="text-sm text-[#363D31] mt-2">7914 Flowerfild dr 33615</p>
             </div>
           )}
         </div>
