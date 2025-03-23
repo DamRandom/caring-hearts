@@ -3,6 +3,8 @@ import Hero from "../../components/Hero";
 import Footer from "../../components/Footer";
 import AboutUs from "@/components/AboutUs";
 import Services from "@/components/Services";
+import Benefits from "@/components/Benefits";
+import Location from "@/components/Location";
 
 export default function Home() {
   return (
@@ -13,6 +15,8 @@ export default function Home() {
       </main>
         <AboutUs />
         <Services />
+        <Benefits />
+        <Location />
         {/* Otras secciones aquí */}
       <Footer />
     </div>
