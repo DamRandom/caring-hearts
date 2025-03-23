@@ -1,10 +1,9 @@
 'use client';
 
-import { useState, useEffect } from "react";
+import { useEffect } from "react";
 import "aos/dist/aos.css";
 
 export default function Location() {
-  const [showInfo, setShowInfo] = useState(false);
 
   useEffect(() => {
     import("aos").then((AOS) => {
@@ -34,34 +33,6 @@ export default function Location() {
               referrerPolicy="no-referrer-when-downgrade"
             ></iframe>
           </div>
-
-          <div
-            className="absolute w-8 h-8 cursor-pointer animate-bounce"
-            style={{ top: "50%", left: "50%" }}
-            onMouseEnter={() => setShowInfo(true)}
-            onMouseLeave={() => setShowInfo(false)}
-            data-aos="fade-up"
-            data-aos-delay="400"
-          >
-            <img 
-              src="/icons/location.png"
-              alt="Location Pin"
-              style={{ width: "100%", height: "100%" }}
-            />
-          </div>
-
-          {showInfo && (
-            <div className="absolute top-[55%] left-[60%] w-40 bg-white shadow-lg p-2 rounded-md text-center" data-aos="fade-up" data-aos-delay="600">
-              <img
-                src="/images/house-thumbnail.jpg"
-                alt="Our Home"
-                width={150}
-                height={100}
-                className="rounded-md"
-              />
-              <p className="text-sm text-[#363D31] mt-2">7914 Flowerfild dr 33615</p>
-            </div>
-          )}
         </div>
 
         {/* Right: Description */}
