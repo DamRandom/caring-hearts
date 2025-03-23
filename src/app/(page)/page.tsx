@@ -13,13 +13,12 @@ export default function Home() {
       <Header />
       <main className="flex-grow p-8 sm:p-20 text-center sm:text-left bg-[#D8E2C6]">
         <Hero />
-      </main>
         <AboutUs />
         <Services />
         <OurPhilosophy />
         <Location />
         <FinalCalltoAction />
-        {/* Otras secciones aquí */}
+      </main>
       <Footer />
     </div>
   );
