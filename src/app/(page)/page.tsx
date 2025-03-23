@@ -9,15 +9,27 @@ import FinalCalltoAction from "@/components/FinalCalltoAction";
 
 export default function Home() {
   return (
-    <div className="min-h-screen flex flex-col bg-[#D8E2C6]">
+    <div className="min-h-screen flex flex-col">
       <Header />
       <main className="flex-grow p-8 sm:p-20 text-center sm:text-left bg-[#D8E2C6]">
-        <Hero />
-        <AboutUs />
-        <Services />
-        <OurPhilosophy />
-        <Location />
-        <FinalCalltoAction />
+        <section id="home">
+          <Hero />
+        </section>
+        <section id="about">
+          <AboutUs />
+        </section>
+        <section id="services">
+          <Services />
+        </section>
+        <section id="philosophy">
+          <OurPhilosophy />
+        </section>
+        <section id="location">
+          <Location />
+        </section>
+        <section id="contact">
+          <FinalCalltoAction />
+        </section>
       </main>
       <Footer />
     </div>

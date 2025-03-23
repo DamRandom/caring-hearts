@@ -10,7 +10,7 @@ const Header = () => {
           <ul className="flex space-x-8">
             <li>
               <Link
-                href="/"
+                href="/#home"
                 className="text-[#FFFDF8] text-lg hover:text-[#D8E2C6] transition duration-300"
               >
                 Home
@@ -18,7 +18,7 @@ const Header = () => {
             </li>
             <li>
               <Link
-                href="/about"
+                href="/#about"
                 className="text-[#FFFDF8] text-lg hover:text-[#D8E2C6] transition duration-300"
               >
                 About
@@ -26,7 +26,31 @@ const Header = () => {
             </li>
             <li>
               <Link
-                href="/contact"
+                href="/#services"
+                className="text-[#FFFDF8] text-lg hover:text-[#D8E2C6] transition duration-300"
+              >
+                Services
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/#philosophy"
+                className="text-[#FFFDF8] text-lg hover:text-[#D8E2C6] transition duration-300"
+              >
+                Philosophy
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/#location"
+                className="text-[#FFFDF8] text-lg hover:text-[#D8E2C6] transition duration-300"
+              >
+                Location
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/#contact"
                 className="text-[#FFFDF8] text-lg hover:text-[#D8E2C6] transition duration-300"
               >
                 Contact

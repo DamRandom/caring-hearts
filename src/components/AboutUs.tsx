@@ -11,7 +11,7 @@ const AboutUs = () => {
   }, []);
 
   return (
-    <section className="py-16 px-6 sm:px-20 text-[#363D31] shadow-md">
+    <section className="py-16 px-6 sm:px-20 text-[#363D31]">
       <div className="max-w-4xl mx-auto text-center sm:text-left" data-aos="fade-up">
         <h2 className="text-4xl font-bold mb-6 drop-shadow-lg">Who We Are</h2>
         <p className="text-lg leading-relaxed drop-shadow-sm">
