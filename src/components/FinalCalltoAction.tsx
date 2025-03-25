@@ -11,23 +11,23 @@ export default function CTA() {
   }, []);
 
   return (
-    <section className="relative py-32 text-center">
+    <section className="relative py-16 sm:py-32 text-center">
       <div className="max-w-6xl mx-auto relative z-10">
         <h2
-          className="text-4xl font-bold text-[#363D31] mb-4"
+          className="text-3xl sm:text-4xl font-bold text-[#363D31] mb-4"
           data-aos="fade-up"
         >
           Ready to take the next step?
         </h2>
         <p
-          className="text-lg text-[#363D31] opacity-90 mb-8"
+          className="text-base sm:text-lg text-[#363D31] opacity-90 mb-8"
           data-aos="fade-up"
           data-aos-delay="200"
         >
           Let’s start the conversation about how we can support you.
         </p>
 
-        <div className="flex justify-center space-x-6">
+        <div className="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-6">
           {/* Call Now Button */}
           <a
             href="tel:+1234567890"
