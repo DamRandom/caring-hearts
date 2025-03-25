@@ -16,7 +16,7 @@ export default function Location() {
       <div className="max-w-6xl mx-auto flex flex-col sm:flex-row items-center">
         {/* Left: Map Section */}
         <div
-          className="relative w-full sm:w-1/2 h-96 flex justify-center items-center"
+          className="relative w-full sm:w-1/2 h-96 flex justify-center items-center mb-8 sm:mb-0"
           data-aos="fade-up"
         >
           <div className="absolute w-[130%] h-[130%] bg-[#A7B79C] rounded-full -top-10 -left-16 opacity-80"></div>
@@ -37,7 +37,7 @@ export default function Location() {
 
         {/* Right: Description */}
         <div
-          className="sm:w-1/2 text-center sm:text-left mt-10 sm:mt-0 relative z-10"
+          className="sm:w-1/2 text-center sm:text-left relative z-10"
           data-aos="fade-up"
           data-aos-delay="800"
         >
