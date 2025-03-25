@@ -37,7 +37,7 @@ export default function Hero() {
 
         {/* Image */}
         <div
-          className="sm:w-1/2 flex justify-center"
+          className="sm:w-1/2 flex justify-center mt-6 sm:mt-0"
           data-aos="fade-up"
           data-aos-delay="600"
         >
