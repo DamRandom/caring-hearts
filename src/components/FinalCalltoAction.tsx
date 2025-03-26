@@ -31,7 +31,7 @@ export default function CTA() {
           {/* Call Now Button */}
           <a
             href="tel:+1234567890"
-            className="inline-block bg-[#A7B79C] text-[#FFFDF8] text-lg font-semibold py-3 px-8 rounded-full shadow-lg hover:bg-[#8C9D85] hover:shadow-xl transition-all duration-300"
+            className="inline-block bg-[#A7B79C] text-[#FFFDF8] text-lg font-semibold py-3 px-8 rounded-full hover:bg-[#8C9D85] transition-all duration-300"
             data-aos="fade-up"
             data-aos-delay="400"
           >
@@ -43,7 +43,7 @@ export default function CTA() {
             href="https://wa.me/1234567890"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block bg-[#A7B79C] text-[#FFFDF8] text-lg font-semibold py-3 px-8 rounded-full shadow-lg hover:bg-[#8C9D85] hover:shadow-xl transition-all duration-300"
+            className="inline-block bg-[#A7B79C] text-[#FFFDF8] text-lg font-semibold py-3 px-8 rounded-full hover:bg-[#8C9D85] transition-all duration-300"
             data-aos="fade-up"
             data-aos-delay="600"
           >

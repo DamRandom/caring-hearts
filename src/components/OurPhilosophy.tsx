@@ -14,7 +14,7 @@ export default function Philosophy() {
     <section className="py-16 px-6 sm:px-12 lg:px-20 bg-[#FFFDF8]">
       <div className="max-w-6xl mx-auto text-center">
         <h2
-          className="text-4xl font-bold text-[#2C352A] mb-6 drop-shadow-md"
+          className="text-4xl font-bold text-[#2C352A] mb-6"
           data-aos="fade-up"
         >
           Our Philosophy
@@ -34,7 +34,7 @@ export default function Philosophy() {
             data-aos="fade-up"
             data-aos-delay="400"
           >
-            <div className="p-4 bg-[#A7B79C] rounded-full shadow-lg mb-4">
+            <div className="p-4 bg-[#A7B79C] rounded-full mb-4">
               <i className="fas fa-heart text-white text-3xl"></i>
             </div>
             <h3 className="text-xl font-semibold text-[#363D31]">Empathy</h3>
@@ -48,7 +48,7 @@ export default function Philosophy() {
             data-aos="fade-up"
             data-aos-delay="600"
           >
-            <div className="p-4 bg-[#A7B79C] rounded-full shadow-lg mb-4">
+            <div className="p-4 bg-[#A7B79C] rounded-full mb-4">
               <i className="fas fa-handshake text-white text-3xl"></i>
             </div>
             <h3 className="text-xl font-semibold text-[#363D31]">Respect</h3>
@@ -62,7 +62,7 @@ export default function Philosophy() {
             data-aos="fade-up"
             data-aos-delay="800"
           >
-            <div className="p-4 bg-[#A7B79C] rounded-full shadow-lg mb-4">
+            <div className="p-4 bg-[#A7B79C] rounded-full mb-4">
               <i className="fas fa-user-md text-white text-3xl"></i>
             </div>
             <h3 className="text-xl font-semibold text-[#363D31]">Individualized Care</h3>

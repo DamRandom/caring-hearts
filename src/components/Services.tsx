@@ -61,17 +61,10 @@ export default function Services() {
   return (
     <section id="services" className="py-16 px-6 sm:px-12 lg:px-20 bg-[#FFFDF8]">
       <div className="max-w-6xl mx-auto text-center">
-        <h2
-          className="text-4xl font-bold text-[#2C352A] mb-6 drop-shadow-md"
-          data-aos="fade-up"
-        >
+        <h2 className="text-4xl font-bold text-[#2C352A] mb-6" data-aos="fade-up">
           Our Services
         </h2>
-        <p
-          className="text-lg text-[#2C352A] opacity-90 mb-12"
-          data-aos="fade-up"
-          data-aos-delay="200"
-        >
+        <p className="text-lg text-[#2C352A] opacity-90 mb-12" data-aos="fade-up" data-aos-delay="200">
           We provide comprehensive support tailored to the needs of our residents, ensuring a safe and nurturing environment.
         </p>
 
@@ -85,7 +78,7 @@ export default function Services() {
               data-aos-delay={index * 200} 
             >
               {/* Card container */}
-              <div className="absolute inset-0 w-full h-full rounded-lg shadow-xl overflow-hidden transition-all duration-500 transform group-hover:scale-105 group-hover:shadow-2xl">
+              <div className="absolute inset-0 w-full h-full rounded-lg overflow-hidden transition-all duration-500 transform group-hover:scale-105">
                 {/* Card with image */}
                 <div className="relative w-full h-full">
                   <div className="absolute inset-0 w-full h-full overflow-hidden bg-black bg-opacity-40 group-hover:bg-transparent transition-all duration-500">
@@ -100,7 +93,7 @@ export default function Services() {
 
                 {/* Card content (hidden initially, shown on hover) */}
                 <div className="absolute inset-0 w-full h-full flex justify-center items-center transition-all duration-500 group-hover:bg-transparent group-hover:opacity-0 group-hover:text-transparent">
-                  <div className="relative z-10 p-4 text-center bg-[#A7B79C] opacity-80 shadow-xl group-hover:opacity-0 group-hover:bg-transparent flex flex-col items-center transition-opacity duration-300 ease-in-out">
+                  <div className="relative z-10 p-4 text-center bg-[#A7B79C] opacity-80 flex flex-col items-center transition-opacity duration-300 ease-in-out">
                     {service.icon}
                     <h3 className="text-xl font-semibold text-[#FFFDF8] mt-4">
                       {service.title}

@@ -19,7 +19,7 @@ export default function Hero() {
           className="sm:w-1/2 text-center sm:text-left"
           data-aos="fade-up"
         >
-          <h1 className="text-4xl sm:text-5xl font-bold text-[#363D31] drop-shadow-md mb-6">
+          <h1 className="text-4xl sm:text-5xl font-bold text-[#363D31] mb-6">
             Providing Comfort & Care for Every Mind
           </h1>
           <p className="text-lg text-[#363D31] opacity-90 mb-6" data-aos="fade-up" data-aos-delay="200">
@@ -27,7 +27,7 @@ export default function Hero() {
           </p>
           <a
             href="#about"
-            className="inline-block bg-[#A7B79C] text-[#FFFDF8] text-lg font-semibold py-3 px-8 rounded-full shadow-lg hover:bg-[#8C9D85] hover:shadow-xl transition-all duration-300"
+            className="inline-block bg-[#A7B79C] text-[#FFFDF8] text-lg font-semibold py-3 px-8 rounded-full hover:bg-[#8C9D85] transition-all duration-300"
             data-aos="fade-up"
             data-aos-delay="400"
           >
@@ -41,7 +41,7 @@ export default function Hero() {
           data-aos="fade-up"
           data-aos-delay="600"
         >
-          <div className="relative w-80 h-80 sm:w-[400px] sm:h-[400px] shadow-lg rounded-lg overflow-hidden">
+          <div className="relative w-80 h-80 sm:w-[400px] sm:h-[400px] rounded-lg overflow-hidden">
             <Image
               src="/images/hero.jpg"
               alt="Supportive care environment"

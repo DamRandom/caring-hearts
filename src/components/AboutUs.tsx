@@ -13,10 +13,10 @@ const AboutUs = () => {
   return (
     <section className="py-12 px-6 sm:px-12 lg:px-20 text-[#363D31]">
       <div className="max-w-5xl mx-auto text-center sm:text-left" data-aos="fade-up">
-        <h2 className="text-3xl sm:text-4xl font-bold mb-6 drop-shadow-lg">
+        <h2 className="text-3xl sm:text-4xl font-bold mb-6">
           Who We Are
         </h2>
-        <p className="text-base sm:text-lg leading-relaxed drop-shadow-sm">
+        <p className="text-base sm:text-lg leading-relaxed">
           At <strong>Caring Hearts Supportive Service</strong>, we are more than just a care home—we are a sanctuary for men facing mental health challenges. Our mission is to provide a supportive and structured environment where individuals can heal, grow, and regain their independence.
           <br />
           <br />
