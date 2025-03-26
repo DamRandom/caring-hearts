@@ -6,7 +6,7 @@ import "aos/dist/aos.css";
 export default function Location() {
   useEffect(() => {
     import("aos").then((AOS) => {
-      AOS.init({ duration: 1000 }); 
+      AOS.init({ duration: 1000 });
     });
   }, []);
 
@@ -19,7 +19,7 @@ export default function Location() {
           data-aos="fade-up"
         >
           <div className="absolute w-[130%] h-[130%] bg-[#A7B79C] rounded-full -top-10 -left-16 opacity-80"></div>
-          
+
           {/* Embed Google Maps iframe */}
           <div className="relative w-5/6 h-full overflow-hidden rounded-2xl" data-aos="fade-up" data-aos-delay="200">
             <iframe
@@ -47,7 +47,7 @@ export default function Location() {
             Nestled in a peaceful neighborhood, our home provides a tranquil setting ideal for healing and growth. Conveniently located near essential services for optimal care and support.
           </p>
           <a
-            href="https://maps.google.com/?q=7914+Flowerfild+dr+33615"
+            href="https://www.google.com/maps/dir/?api=1&destination=7914+Flowerfield+Dr,+Tampa,+FL+33615"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block mt-6 bg-[#A7B79C] text-[#FFFDF8] text-lg font-semibold py-3 px-8 rounded-full hover:bg-[#8C9D85] transition-all duration-300"
@@ -56,6 +56,7 @@ export default function Location() {
           >
             Get Directions
           </a>
+
         </div>
       </div>
     </section>
